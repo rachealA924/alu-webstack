@@ -50,7 +50,7 @@ listen stats
 
 frontend ALL
         bind *:80
-	bind *:443 ssl crt /etc/letsencrypt/live/www.yourgift.tech/joined.pem
+	bind *:443 ssl crt /etc/letsencrypt/live/www.yourmine.tech/joined.pem
         mode http
 
         # Define path for lets encrypt
